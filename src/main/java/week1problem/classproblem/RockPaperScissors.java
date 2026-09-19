@@ -1,4 +1,4 @@
-
+package week1problem.classproblem;
 import java.util.*;
 
 public class RockPaperScissors {
@@ -21,6 +21,7 @@ public class RockPaperScissors {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        
         Random random = new Random();
 
         String[] moves = {"Rock", "Paper", "Scissors"};
